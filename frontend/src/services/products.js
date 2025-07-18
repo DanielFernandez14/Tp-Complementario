@@ -24,4 +24,9 @@ const deleteProduct = async (id) => {
   return response
 }
 
-export { getProducts, createProduct, deleteProduct }
+const searchProducts = async (name) => {
+  const response = await fetch(`${BASE_API}/products/search?name=${name}`)
+  return response
+}
+
+export { getProducts, createProduct, deleteProduct, searchProducts}

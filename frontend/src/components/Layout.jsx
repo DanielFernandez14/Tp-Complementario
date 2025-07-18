@@ -36,7 +36,7 @@ const Layout = ({ children }) => {
         {children}
       </main>
       <footer>
-        <p>Sitio desarrollado por Gabriel Alberini | UTN</p>
+        <p>Sitio modificado por Daniel Matias Fernández | UTN</p>
       </footer>
     </>
   )
